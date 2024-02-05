@@ -1,0 +1,39 @@
+.tab {
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid rgb(209, 210, 216);
+  border-radius: 20px;
+  width: 500px;
+  background-color: white;
+}
+
+.tab__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(209, 210, 216);
+  margin: 15px;
+}
+
+.tab__content {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.active {
+  color: rgb(17, 74, 197);
+  font-weight: bold;
+  border-bottom: 3px solid rgb(17, 74, 197);
+}
+
+.button {
+  background-color: rgb(150, 216, 89);
+  color:   rgb(7, 146, 58);
+  padding: 4px 10px;
+  border-radius: 12px;
+  margin-top: 40px;
+  display: block;
+  width: 500px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
